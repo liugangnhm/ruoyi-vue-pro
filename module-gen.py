@@ -180,7 +180,7 @@ os.makedirs(f"{biz_dir}/src/test/java", exist_ok=True)
 os.makedirs(f"{biz_dir}/src/test/resources/sql", exist_ok=True)
 
 # create new emtpy sql file
-write_to_file(f"{biz_dir}/src/test/resources/sql/create_table.sql", "")
+write_to_file(f"{biz_dir}/src/test/resources/sql/create_tables.sql", "")
 write_to_file(f"{biz_dir}/src/test/resources/sql/clean.sql", "")
 
 
