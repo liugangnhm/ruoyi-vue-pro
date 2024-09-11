@@ -4,7 +4,7 @@ INSERT INTO system_menu(
     path, icon, component, status, component_name
 )
 VALUES (
-           '资产清单管理', '', 2, 0, ${table.parentMenuId},
+           '资产清单管理', '', 2, 0, 2838,
            'asset', '', 'ams/asset/index', 0, 'Asset'
        );
 

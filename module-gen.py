@@ -190,4 +190,4 @@ write_to_file(f"{biz_dir}/pom.xml", pom_content)
 # sql
 sql = gen_template_sql()
 os.makedirs(f"{rootdir}/sql", exist_ok=True)
-write_to_file(f"{rootdir}/sql/create.sql", sql)
+write_to_file(f"{rootdir}/sql/ddl.sql", sql)

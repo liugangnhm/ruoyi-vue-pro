@@ -108,6 +108,8 @@ public class AssetDO extends BaseDO {
     private String parentBarcode;
     /**
      * 状态
+     *
+     * 枚举 {@link TODO test_status_1 对应的类}
      */
     private Integer status;
 

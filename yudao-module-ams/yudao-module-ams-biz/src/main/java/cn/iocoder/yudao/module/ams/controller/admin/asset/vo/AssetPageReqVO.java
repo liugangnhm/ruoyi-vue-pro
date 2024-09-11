@@ -15,13 +15,13 @@ import static cn.iocoder.yudao.framework.common.util.date.DateUtils.FORMAT_YEAR_
 @ToString(callSuper = true)
 public class AssetPageReqVO extends PageParam {
 
-    @Schema(description = "资产编号", example = "12295")
+    @Schema(description = "资产编号", example = "5074")
     private String assetId;
 
-    @Schema(description = "资产名称", example = "李四")
+    @Schema(description = "资产名称", example = "张三")
     private String name;
 
-    @Schema(description = "客户名称", example = "赵六")
+    @Schema(description = "客户名称", example = "李四")
     private String customName;
 
     @Schema(description = "贸易商")
@@ -42,16 +42,16 @@ public class AssetPageReqVO extends PageParam {
     @DateTimeFormat(pattern = FORMAT_YEAR_MONTH_DAY_HOUR_MINUTE_SECOND)
     private LocalDateTime[] preShipmentDate;
 
-    @Schema(description = "订单号", example = "3894")
+    @Schema(description = "订单号", example = "19151")
     private String orderId;
 
     @Schema(description = "款号")
     private String styleNo;
 
-    @Schema(description = "RFID", example = "29152")
+    @Schema(description = "RFID", example = "20416")
     private String rfid;
 
-    @Schema(description = "父级RFID", example = "29798")
+    @Schema(description = "父级RFID", example = "1740")
     private String parentRfid;
 
     @Schema(description = "颜色")
@@ -75,7 +75,7 @@ public class AssetPageReqVO extends PageParam {
     @Schema(description = "父级条形码")
     private String parentBarcode;
 
-    @Schema(description = "状态", example = "2")
+    @Schema(description = "状态", example = "1")
     private Integer status;
 
     @Schema(description = "创建时间")
